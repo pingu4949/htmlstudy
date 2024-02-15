@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table</title>
+<style type="text/css">
+table {
+	width: 60%;
+	margin: 0 auto; /*가운데 정렬*/
+	border-collapse: collapse; /* 실선으로 됨 */
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+/* tr:hover{
+
+background-color: #d6eeee;
+
+} */
+</style>
+</head>
+<body>
+	<table>
+		<colgroup>
+			<col  style="background-color: #ffff;">
+			<col  style="background-color: yellow;">
+			<col  style="background-color: skyblue;">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Points</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Peter</td>
+				<td>Griffin</td>
+				<td>$100</td>
+			</tr>
+			<tr>
+				<td>Lois</td>
+				<td>Griffin</td>
+				<td>$150</td>
+			</tr>
+			<tr>
+				<td>Joe</td>
+				<td>Swanson</td>
+				<td>$300</td>
+			</tr>
+			<tr>
+				<td>Cleveland</td>
+				<td>Griffin</td>
+				<td>$250</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
